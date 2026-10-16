@@ -1468,7 +1468,7 @@ popupnotificationcontent {
   @media -moz-pref("browser.nova.enabled") and (not (forced-colors)) {
     &[cui-areatype="toolbar"]:not([overflowedItem]) {
       > .toolbarbutton-badge-stack {
-        padding: var(--toolbarbutton-padding-inner-touch-narrow);
+        padding: var(--toolbarbutton-padding-inner);
       }
 
       &:not(:hover, [open="true"]) > .toolbarbutton-badge-stack::before {
